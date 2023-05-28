@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Online Grocery Shop</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <a href="product.html">PRODUCT</a>
+                <ul class = "dropdown">
+                    <li><a href="fruitsAndVegetable.html">FRUIT AND VEGETABLE</a></li>
+                    <li><a href="beverage.html">BEVERAGE</a><li>
+                    <li><a href="SelfCare.html">SELF CARE</a></li>
+                </ul>
+            </li>
+            <li><a href="aboutUs.html">ABOUT US</a></li>
+            <li><a href="contacUs.html">CONTACT US</a></li>
+            <li><a href="addToCart.html">CART</a></li>
+        </ul>
+        </nav>
+
+        <h2 style="text-align: center;">Vegetables and Fruits</h2>
+        <main>
+            <input type="text" id="filterInput" placeholder="Search VEGETABLES">
+            <table width="100%" border="1" id="itemTable">
+                <tr>
+                    <th>VEGETABLES Or Fruit</th>
+                    <th>Price per (KG)</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><img src="cab.jpg" alt="cabbage" width="100" height="100">
+                    <br><b>Cabbage</b></td>
+                    <td><b>RM 3.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=cabbage&price=3.30">Add to Cart</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="carrot.jpeg" alt="carrot" width="100" height="100">
+                    <br><b>Carrot</b></td>
+                    <td><b>RM 5.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=carrot&price=5.00">Add to Cart</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="apple.jpeg" alt="apple" width="100" height="100">
+                    <br><b>Apple</b></td>
+                    <td><b>RM 20.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=apple&price=20.00">Add to Cart</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="grape.jpg" alt="grape" width="100" height="100">
+                    <br><b>Grape</b></td>
+                    <td><b>RM 15.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=grape&price=15.00">Add to Cart</a></button>  
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="orange.png" alt="orange" width="100" height="100">
+                    <br><b>Orange</b></td>
+                    <td><b>RM 25.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=orange&price=25.00">Add to Cart</a></button>
+                    </td>
+                </tr>
+            </table>
+            <footer>
+                <p>LG-01,Lower Ground Floor No.1,Perda,Sunway Carnival Mall,14000 Bukit Mertajam Pulau Pinang</p>
+                <br>
+                <p>tel:01-111-24423</p>
+                <br>
+                <p>&copy; 2023 Onlice Grocer Shop. All rights reserved.</p>
+            </footer>
+    
+    

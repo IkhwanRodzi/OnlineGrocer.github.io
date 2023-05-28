@@ -1,0 +1,178 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ul 
+{
+    list-style: none;
+    background: rgb(141, 3, 3);
+}
+ul li
+{
+    display: inline-block;
+    position: relative;
+}
+ul li a
+{
+    display: block;
+    padding: 20px 20px;
+    color: aquamarine;
+    text-decoration: dotted;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul,dropdown li
+{
+    display:block;
+}
+ul li ul.dropdown
+{
+    width: 100%;
+    background: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover
+{
+    background: darkgray;
+}
+ul li:hover ul.dropdown
+{
+    display: block;
+}
+.center
+{
+    text-align: center;
+}
+body
+{
+    background-image: url('images2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.big-font
+{   
+    border: 15px dotted;
+    border-spacing: 20px;
+    border-color: rgb(141, 3, 3);
+    background-color: rgba(0, 0, 0, 0.377);
+    font-size:90px;
+    color: aquamarine;
+    text-align: center;
+    ;
+}
+footer
+{
+    border: 15px solid;
+    border-color: rgb(58, 58, 58);
+    background-color:rgb(58, 58, 58);
+    text-align: center;
+    color: bisque;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    display: inline-block;
+    margin-top: 1rem;
+    background: rgb(141, 3, 3);
+    color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+#aboutUs
+{
+    border: 0px solid;
+    background-color: rgba(0, 0, 0, 0.808);
+    color: aquamarine;
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+}
+p.pt
+{
+    border: dashed;
+    background-color: rgba(0, 0, 0, 0.568);
+    text-align: center;
+}
+h1
+{   
+    border: 0px solid;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: aquamarine;
+}
+h2
+{
+    border: 0px solid;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: aquamarine;
+}
+p.text
+{   
+    border: 1px solid ;
+    background-color: rgb(141, 3, 3);
+    text-align: center;
+    color: aquamarine;
+    font-size: 20px;
+}
+table
+{
+    background-color: beige;
+    text-align: center;
+    font-size: larger;
+
+}
+form
+{
+    border: 0px solid;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: aquamarine;
+    font-size: 30px;
+}
+textarea
+{
+    height: 100px;
+    width: 500px;
+}
+button
+{
+    display: inline-block;
+    margin-top: 1rem;
+    background: rgb(141, 3, 3);
+    color: aquamarine;
+    padding: 20px;
+}
+#cartTable
+{
+    border-width: 100px 300px;
+    margin: 0 auto;
+    background-color: bisque;
+    border-collapse: collapse;
+}
+  
+#cartTable th,
+#cartTable td
+{
+    border: 1px double black;
+    padding: 8px;
+}
+
+#totalPrice
+{
+    text-align: center;
+    border: 0px solid;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: aquamarine;
+    font-size: 30px;
+}

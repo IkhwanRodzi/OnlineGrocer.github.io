@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Grocery Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li>
+                    <a href="product.html">PRODUCT</a>
+                    <ul class="dropdown">
+                        <li><a href="fruitsAndVegetable.html">FRUIT AND VEGETABLE</a></li>
+                        <li><a href="beverage.html">BEVERAGE</a></li>
+                        <li><a href="selfCare.html">SELF CARE</a></li>
+                    </ul>
+                </li>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="contactUs.html">CONTACT US</a></li>
+                <li><a href="addToCart.html">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 style="text-align: center;">Beverages</h2>
+        <input type="text" id="filterInput" placeholder="Search VEGETABLES">
+        <table width="100%" border="1" id="itemTable">
+            <tr>
+                <th>Beverages</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="mouthWash.jpeg" alt="mouthWash" width="200" height="100">
+                    <br><b>Mouth Wash</b>
+                </td>
+                <td><b>RM 8.00</b></td>
+                <td>
+                    <button><a href="addToCart.html?name=mouthWash&price=8.00">Add to Cart</a></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="toothpaste.png" alt="toothpaste" width="200" height="100">
+                    <br><b>Toothpaste</b>
+                </td>
+                <td><b>RM 3.50</b></td>
+                <td>
+                    <button><a href="addToCart.html?name=toothpaste&price=3.50">Add to Cart</a></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="deodorant.jpeg" alt="deodorant" width="100" height="100">
+                    <br><b>Deodorant</b>
+                </td>
+                <td><b>RM 9.00</b></td>
+                <td>
+                    <button><a href="addToCart.html?name=deodorant&price=9.00">Add to Cart</a></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="shampoo.jpeg" alt="shampoo" width="100" height="100">
+                    <br><b>Shampoo</b>
+                </td>
+                <td><b>RM 12.00</b></td>
+                <td>
+                    <button><a href="addToCart.html?name=shampoo&price=12.00">Add to Cart</a></button>  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="bodyWash.jpeg" alt="bodyWash" width="100" height="100">
+                    <br><b>Body Wash</b>
+                </td>
+                <td><b>RM 13.00</b></td>
+                <td>
+                    <button><a href="addToCart.html?name=bodyWash&price=13.00">Add to Cart</a></button>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>LG-01, Lower Ground Floor No.1, Perda, Sunway Carnival Mall, 14000 Bukit Mertajam, Pulau Pinang</p>
+        <br>
+        <p>tel: 01-111-24423</p>
+        <br>
+        <p>&copy; 2023 Online Grocer Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

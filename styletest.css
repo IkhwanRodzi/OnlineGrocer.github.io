@@ -1,0 +1,65 @@
+body
+{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    list-style: none;
+    background-color: brown;
+}
+ul li
+{
+    display: inline-lb;
+    position: relative;
+}
+ul li a
+{
+    display: block;
+    padding: 20px 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+}
+ul li,dropdown, li 
+{
+    display: block;
+}
+ul li ul.dropdown
+{
+    width: 100%;
+    background: rgb(56, 55, 55);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover
+{
+    background-color: darkgray;
+}
+ul li:hover ul.dropdown
+{
+    display: block;
+}
+.center
+{
+    text-align: center;
+}
+body
+{
+    background-image: url('images2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer
+{
+    display: block;
+    padding: 20px;
+    color: rgb(49, 49, 49);
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Online Grocery Shop</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <a href="product.html">PRODUCT</a>
+                <ul class = "dropdown">
+                    <li><a href="fruitsAndVegetable.html">FRUIT AND VEGETABLE</a></li>
+                    <li><a href="beverage.html">BEVERAGE</a><li>
+                    <li><a href="SelfCare.html">SELF CARE</a></li>
+                </ul>
+            </li>
+            <li><a href="aboutUs.html">ABOUT US</a></li>
+            <li><a href="contacUs.html">CONTACT US</a></li>
+            <li><a href="addToCart.html">CART</a></li>
+        </ul>
+        </nav>
+
+        <h2 style="text-align: center;">Beverages</h2>
+        <main>
+            <input type="text" id="filterInput" placeholder="Search VEGETABLES">
+            <table width="100%" border="1" id="itemTable">
+                <tr>
+                    <th>Beverages</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td><img src="cola.jpeg" alt="Cola" width="100" height="100">
+                    <br><b>Cola</b></td>
+                    <td><b>RM 3.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=cola&price=3.00">Add to Cart</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="7UP.jpeg" alt="7up" width="100" height="100">
+                    <br><b>7up</b></td>
+                    <td><b>RM 3.50</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=7up&price=3.50">Add to Cart</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="Cordial.jpeg" alt="Cordial" width="100" height="100">
+                    <br><b>Strawberry Cordial </b></td>
+                    <td><b>RM 10.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=cordial&price=10.00">Add to Cart</a></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="grape cordial.jpeg" alt="grape cordial" width="100" height="100">
+                    <br><b>Grape</b></td>
+                    <td><b>RM 12.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=grape cordial&price=12.00">Add to Cart</a></button>  
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="orange cordial.jpeg" alt="orange cordial" width="100" height="100">
+                    <br><b>Orange</b></td>
+                    <td><b>RM 13.00</b></td>
+                    <td>
+                        <button><a href="addToCart.html?name=orange cordial&price=13.00">Add to Cart</a></button>
+                    </td>
+                </tr>
+            </table>
+            <footer>
+                <p>LG-01,Lower Ground Floor No.1,Perda,Sunway Carnival Mall,14000 Bukit Mertajam Pulau Pinang</p>
+                <br>
+                <p>tel:01-111-24423</p>
+                <br>
+                <p>&copy; 2023 Onlice Grocer Shop. All rights reserved.</p>
+            </footer>
+    
+    
